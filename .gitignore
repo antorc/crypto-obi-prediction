@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Data — never commit
+data/
+*.parquet
+*.csv
+*.feather
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Outputs that shouldn't be tracked
+outputs/
+figures/*.png
+figures/*.pdf
+!figures/.gitkeep
+
+# Project-specific
+notebooks/**/*.html
+notebooks/scratch/
