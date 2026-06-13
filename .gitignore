@@ -48,3 +48,5 @@ figures/*.pdf
 # Project-specific
 notebooks/**/*.html
 notebooks/scratch/
+
+projectDoc.pdf
